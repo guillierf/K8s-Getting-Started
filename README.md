@@ -9,8 +9,8 @@ Clone this repo and try each step. For detailed walkthrough refer to the [tutori
 
 Create a Kubernetes deployment with the image:
 
-**kubectl run my-web --image=guillierf/myweb --port=80**
+**$ kubectl run my-web --image=guillierf/myweb --port=80**
 
 Create a Kubernetes service of type NodePort:
 
-**kubectl expose deployment my-web --target-port=80 --type=NodePort**
+**$ kubectl expose deployment my-web --target-port=80 --type=NodePort**
